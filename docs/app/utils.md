@@ -22,6 +22,21 @@ import { utils } from '@react-native-firebase/app';
 console.log(utils.FilePath.PICTURES_DIRECTORY);
 ```
 
+FilePath can have one of the following values:
+
+```
+CACHES_DIRECTORY
+DOCUMENT_DIRECTORY
+EXTERNAL_DIRECTORY
+EXTERNAL_STORAGE_DIRECTORY
+TEMP_DIRECTORY
+LIBRARY_DIRECTORY
+PICTURES_DIRECTORY
+MOVIES_DIRECTORY
+```
+
+Where these map to is both operating system and operating system version dependent.
+
 # Test Lab
 
 Firebase [TestLab](https://firebase.google.com/docs/test-lab/?utm_source=invertase&utm_medium=react-native-firebase&utm_campaign=utils)
